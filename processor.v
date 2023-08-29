@@ -13,8 +13,8 @@
 `include "alu/setlessthan.v"
 `include "alu/shiftleftlogic.v"
 `include "alu/shiftrightlogic.v"
-`include "veda.v"
-`include "registers.v"
+`include "memory/veda.v"
+`include "memory/registers.v"
 `include "updateaddress.v"
 // This module integrates all the sub modules and builds the processor
 module processor(
